@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/movie_app_hychoi/precache-manifest.8ac88d39026bb8a1a352cd0cfd94f15a.js"
+  "/movie_app_hychoi/precache-manifest.0737a397f1a2fe4f99bc9946418b20e3.js"
 );
 
 self.addEventListener('message', (event) => {

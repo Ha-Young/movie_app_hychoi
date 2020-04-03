@@ -3,15 +3,28 @@
     width: 45%;
     background-color: white;
     margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    transition: all .15s linear;
+  }
+
+  .movies .movie:hover {
+    transform: scale(1.07);
+  }
+
+  .movie .movie__link {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    font-weight: 300;
-    padding: 20px;
-    border-radius: 5px;
+    text-decoration: none;
     color: #8a8b92;
-    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    font-weight: 300;
+  }
+
+  .movie .movie__link:visited {
+    text-decoration: none;
   }
   
   .movie img {
